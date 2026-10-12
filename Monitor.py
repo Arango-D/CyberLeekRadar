@@ -27,6 +27,12 @@ with sync_playwright() as p:
     page = browser.new_page()
     page.goto("https://cyberleek.perma.online")
 
+
+    print("URL actual:", page.url) 
+    print("Titulo de la pagina:", page.tittle())
+
+
+
     page.locator(".content-title").first.wait_for()
 
     items = page.locator("#card-content .content-item")
