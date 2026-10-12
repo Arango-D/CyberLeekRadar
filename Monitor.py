@@ -29,7 +29,7 @@ with sync_playwright() as p:
 
 
     print("URL actual:", page.url) 
-    print("Titulo de la pagina:", page.tittle())
+    print("Titulo de la pagina:", page.title())
 
 
 
