@@ -1,4 +1,4 @@
-# CyberleekRadar 🚨
+# CyberleekRadar 
 
 A Python-based webpage monitoring tool that detects newly appearing titles and sends Telegram notifications with their associated links.
 
